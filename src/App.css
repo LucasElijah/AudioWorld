@@ -1,42 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -46,7 +7,44 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.frame {
+  display: flex;
+}
+
+.sidebar {
+  background-color: lightblue;
+  width: 25vw;
+  height: 100vh;
+  display: block;
+}
+
+.main {
+  background-color: lightcoral;
+  width: 75vw;
+  height: 100vh;
+}
+
+.sidebar-header {
+  background-color: green;
+  height: 20%;
+}
+
+.sidebar-content {
+  background-color: lightgreen;
+  height: 55%;
+}
+
+.sidebar-footer {
+  background-color: blue;
+  height: 25%;
+}
+
+.main-nav {
+  background-color: blueviolet;
+  height: 20%;
+}
+
+.main-content {
+  background-color: sienna;
+  height: 80%;
 }
