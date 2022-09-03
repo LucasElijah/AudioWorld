@@ -1,31 +1,14 @@
 import "./App.css";
+import Main from "./layout/Main";
+import Sidebar from "./layout/Sidebar";
 
 function App() {
 	return (
 		<div className="frame">
-			{/* side */}
-			<div className="sidebar">
-				{/* header */}
-				<div className="sidebar-header">
-          
-        </div>
-
-				{/* content */}
-				<div className="sidebar-content"></div>
-
-				{/* footer */}
-				<div className="sidebar-footer"></div>
-			</div>
-
+			{/* sidebar */}
+			<Sidebar />
 			{/* main */}
-			<div className="main">
-				{/* nav */}
-				<div className="main-nav"></div>
-
-				{/* body */}
-				<div className="main-content"></div>
-        
-			</div>
+			<Main />
 		</div>
 	);
 }
