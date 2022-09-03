@@ -12,39 +12,55 @@ body {
 }
 
 .sidebar {
-  background-color: lightblue;
+  background-color: blue;
   width: 25vw;
-  height: 100vh;
-  display: block;
 }
 
 .main {
-  background-color: lightcoral;
-  width: 75vw;
   height: 100vh;
+  width: 75vw;
 }
 
 .sidebar-header {
-  background-color: green;
+  background-color: tan;
+  height: 20%;
+
+}
+
+.sidebar-profile {
+  background-color: teal;
+  height: 15%;
+
+}
+
+.sidebar-info {
+  background-color: thistle;
+  height: 65%;
+
+}
+
+.main-header {
+  background-color: purple;
   height: 20%;
 }
 
-.sidebar-content {
-  background-color: lightgreen;
-  height: 55%;
+.main-body {
+  background: yellowgreen;
+  height: 40%
 }
 
-.sidebar-footer {
-  background-color: blue;
-  height: 25%;
+.main-info {
+  display: flex;
+  background-color: seagreen;
+  height: 40%;
 }
 
-.main-nav {
-  background-color: blueviolet;
-  height: 20%;
+.main-info-finances {
+  background-color: orangered;
+  width: 60%
 }
 
-.main-content {
-  background-color: sienna;
-  height: 80%;
+.main-info-activity {
+  background-color: whitesmoke;
+  width: 40%
 }
