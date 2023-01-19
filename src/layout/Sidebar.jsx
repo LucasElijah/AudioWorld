@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./sidebar/Header";
 import Info from "./sidebar/Info";
+import Logout from "./sidebar/Logout";
 import Profile from "./sidebar/Profile";
 
 export default function Sidebar() {
@@ -12,6 +13,8 @@ export default function Sidebar() {
 			<Profile/>
 			{/* sidebar-info */}
 			<Info/>
+			{/* logout */}
+			<Logout />
 		</div>
 	);
 }

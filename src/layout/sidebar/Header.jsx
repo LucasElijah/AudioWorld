@@ -1,5 +1,29 @@
-import React from "react";
+import { ShuffleOn } from '@mui/icons-material'
+import { Badge, Box, styled, Toolbar, Typography } from '@mui/material'
+import React from 'react'
 
-export default function Header() {
-	return (<div className="sidebar-header">header</div>);
+const StyledToolbar = styled(Toolbar)({
+  display: "flex",
+  justifyContent: "center"
+})
+
+const Icons = styled(Box)(({ theme }) => ({
+
+}));
+
+const Header = () => {
+  return (
+    <StyledToolbar>
+      <Icons>
+        <Badge>
+          <ShuffleOn />
+        </Badge>
+      </Icons>
+      <Typography variant="h4">
+        COINT
+      </Typography>
+    </StyledToolbar>
+  )
 }
+
+export default Header

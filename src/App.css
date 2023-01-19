@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F3EFEA;
 }
 
 .frame {
@@ -12,55 +13,50 @@ body {
 }
 
 .sidebar {
-  background-color: blue;
-  width: 25vw;
+  width: 20vw;
 }
 
 .main {
   height: 100vh;
-  width: 75vw;
+  width: 80vw;
 }
 
 .sidebar-header {
-  background-color: tan;
   height: 20%;
 
 }
 
 .sidebar-profile {
-  background-color: teal;
   height: 15%;
 
 }
 
 .sidebar-info {
-  background-color: thistle;
   height: 65%;
 
 }
 
+.sidebar-logout {
+  justify-content: end;
+}
+
 .main-header {
-  background-color: purple;
   height: 20%;
 }
 
 .main-body {
-  background: yellowgreen;
-  height: 40%
+  height: 50%;
 }
 
 .main-info {
   display: flex;
-  background-color: seagreen;
-  height: 40%;
+  height: 30%;
 }
 
 .main-info-finances {
-  background-color: orangered;
   width: 60%
 }
 
 .main-info-activity {
-  background-color: whitesmoke;
   width: 40%
 }
