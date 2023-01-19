@@ -20,7 +20,7 @@ const Header = () => {
         </Badge>
       </Icons>
       <Typography variant="h4">
-        COINT
+        Coinup
       </Typography>
     </StyledToolbar>
   )

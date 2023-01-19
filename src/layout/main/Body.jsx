@@ -15,7 +15,7 @@ export default function Body() {
 	return (
 		<Box className="main-body" bgcolor="skyblue">
 			<Typography variant="h6">Total Balance</Typography>
-			<Typography variant="h3">$xxxxxxx</Typography>
+			<Typography variant="h3">$xxx</Typography>
 			<Divider flexItem sx={{ borderBottomWidth: 5 }} />
 
 			<Stack direction="row" spacing={2}>
